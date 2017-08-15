@@ -2,6 +2,10 @@
  * Start Bootstrap - Agency v4.0.0-alpha (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ blue color = #004085
+ yellow color = #fed136
+ changed strings:
+ 91;
  */
 body {
   overflow-x: hidden;
@@ -48,7 +52,7 @@ section {
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+  background: #fed136; 
   text-shadow: none; }
 
 img::selection {
