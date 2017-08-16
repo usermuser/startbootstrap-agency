@@ -1,8 +1,19 @@
 # Шаблон сайта для шиномонтажной мастерской
 * телефон:
 * адрес:
-## [Cсылка для просмотра:](https://usermuser.github.io/startbootstrap-agency/)
+## [Cсылка для просмотра: НАЖМИ](https://usermuser.github.io/startbootstrap-agency/) 
 
+##Список того, что нужно сделать:
+* Сделать thumbnails для картинок в разделе УСЛУГИ. Сейчас загружаются большие картинки, нужно сделать
+их копии размером 400x300. Для примера одну я уже сделал картинка "РЕМОНТ ПРОКОЛОВ И ПОРЕЗОВ"
+* Написать текст который появляется при клике на какую нибудь УСЛУГУ. Текст брать с сайта Unit-car.com. Смотри раздел "РЕМОНТ ГРЫЖ" там уже все сделано.
+
+
+
+
+#####################
+#####################
+Дальше идет херня
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
 [Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
@@ -37,7 +48,6 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-* [LINK](https://usermuser.github.io/startbootstrap-agency/)
 
 ## Copyright and License
 
