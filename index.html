@@ -23,26 +23,39 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+
      <!--2 GIS  -->
     <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
-<script type="text/javascript">    var map;
-
-    DG.then(function () {
+    <script type="text/javascript"> 
+    var map;
+    DG.then(function ()
+       {
         map = DG.map('map', {
             center: [55.2085,61.3062],
-            zoom: 17
+            zoom: 17,
+            scrollWheelZoom: false,
+            fullscreenControl: false,
+            geoclicker: false,
+            zoomControl: false
         });
         DG.marker([55.208484,61.307053]).addTo(map).bindPopup('Качественный шиномонтаж в Парковом! Ждем Вас каждый день с 7:00 до 22:00');
-    });</script>
+       });
+    </script>
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-     <div class="navbar-collapse" id="navbarResponsive"> <a class="navbar-brand" href="tel:88008008080">8 800 800 80 80</a></div>
-     <div class="navbar-collapse" id="navbarResponsive"> <a class="navbar-brand" href="#page-top">Шиномонтаж в Парковом</a></div>
-      
+     
+     <div class="collapse navbar-collapse" > <a class="navbar-brand" href="tel:88008008080">8 800 800 80 80</a></div>
+     <div class="navbar-collapse"> <a class="navbar-brand" href="#page-top">Шиномонтаж в Парковом</a></div>
+     <!-- <div class="navbar-toggler tel" >  -->
+       <a class="navbar-toggler tel" href="tel:88008008080">
+         <i class="fa fa-phone"></i> Позвонить</a>
+     <!-- </div> -->
+    
+     </div>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Меню
         <i class="fa fa-bars"></i>
@@ -55,12 +68,12 @@
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">УСЛУГИ</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">О НАС</a>
-          </li>
           <!-- <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
+            <a class="nav-link" href="#about">О НАС</a>
           </li> -->
+           <li class="nav-item">
+            <a class="nav-link" href="#price">ЦЕНЫ</a>
+          </li> 
           <li class="nav-item">
             <a class="nav-link" href="#contact">КАК НАС НАЙТИ</a>
           </li>
@@ -218,7 +231,7 @@
     </section>
     
     <!-- Price -->
-    <section class="bg-light">
+    <section class="bg-light" id="price">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -271,34 +284,25 @@
                   </tr>
             </table>
           </div>
-        <!-- <div class="table-responsive"> -->
-          
-        <!-- </div> -->
+  
       </div>
     </section>
-
-    <!-- Contact -->
-<!--     <section id="contact">
-      <div class="container">
-         <div id="map" style="width:1200px; height:500px"></div>
-      </div>
-    </section> -->
-    <!-- New Map from Google -->
-    <section id="contact" class="map">
+    <section id="contact">
       <div class="row">
             <div class="col-lg-12 text-center">
               <h2 class="section-heading">Как нас найти</h2>
               <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
+            <div id="map" style="width:99%; height:600px; align-content: center;"></div>
       </div>
-      <div class="container-fluid-map">
+      <!-- <div class="container-fluid-map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9115.76247611033!2d61.378090308592014!3d55.16681503544273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c592cbe77b28ab%3A0xce492a1096f48777!2z0YPQuy4g0KLRgNGD0LTQsCwgMTc5LCDQp9C10LvRj9Cx0LjQvdGB0LosINCn0LXQu9GP0LHQuNC90YHQutCw0Y8g0L7QsdC7LiwgNDU0MDgw!5e0!3m2!1sru!2sru!4v1459420787075" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
         <br />
         <small>
             <a href="https://www.google.ru/maps/place/%D1%83%D0%BB.+%D0%A2%D1%80%D1%83%D0%B4%D0%B0,+179,+%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA,+%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+454080/@55.166815,61.3780903,15z/data=!4m2!3m1!1s0x43c592cbe77b28ab:0xce492a1096f48777?hl=ru"></a>
         </small>
         </iframe>
-      </div>
+      </div> -->
         
     </section>
 
@@ -312,8 +316,8 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
+                <a href="https://vk.com">
+                  <i class="fa fa-vk"></i>
                 </a>
               </li>
               <li class="list-inline-item">
@@ -323,7 +327,12 @@
               </li>
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-odnoklassniki"></i>
+                </a>
+              </li>
+               <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-telegram"></i>
                 </a>
               </li>
             </ul>
@@ -563,18 +572,8 @@
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
 
-    <!-- Timofeys script -->
-    <script type="text/javascript">
-     var map;
-
-      DG.then(function () {
-        map = DG.map('map', {
-            center: [55.2085,61.3062],
-            zoom: 17
-        });
-        DG.marker([55.208484,61.307053]).addTo(map).bindPopup('Качественный шиномонтаж в Парковом! Ждем Вас каждый день с 7:00 до 22:00');
-      });
-    </script>
+   
+   
 
    
   </body>
