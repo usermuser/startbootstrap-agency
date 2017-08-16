@@ -1,7 +1,7 @@
 # Шаблон сайта для шиномонтажной мастерской
-телефон:
-адрес:
-# [Cсылка для просмотра:](https://usermuser.github.io/startbootstrap-agency/)
+* телефон:
+* адрес:
+## [Cсылка для просмотра:](https://usermuser.github.io/startbootstrap-agency/)
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
 
