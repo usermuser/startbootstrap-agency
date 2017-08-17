@@ -126,7 +126,7 @@ body {
      }
   #mainNav .navbar-brand {
     color: #fed136;
-    width: 97%;
+    width: 100%;
     text-align: center;
     font-family: 'ralewayregular', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
