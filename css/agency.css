@@ -86,6 +86,10 @@ body {
     text-align: center;
     width: 45%;
      }
+    #mainNav .navbar-toggler.none{
+      width: 100%;
+      background-color: transparent;
+    } 
   #mainNav .navbar-brand {
     color: #fed136;
     width: 100%;
