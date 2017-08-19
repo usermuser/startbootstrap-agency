@@ -87,10 +87,10 @@ body {
     width: 100%;
     margin-right: 0px;
     text-align: center;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
-  #mainNav .navbar-brand .hide{
+  #mainNav .navbar-collapse .hide{
     display: none;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
