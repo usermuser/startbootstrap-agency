@@ -130,7 +130,12 @@ body {
       transition: all 0.3s; 
        width: 100%;
       }
-    
+      #mainNav .navbar-toggler.none{
+        width: 100%;
+        padding: 0;
+  
+        background-color: transparent;
+      } 
       .tel {
         text-align: center;
         color: white;
