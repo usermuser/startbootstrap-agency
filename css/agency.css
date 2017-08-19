@@ -88,7 +88,7 @@ body {
      }
     #mainNav .navbar-toggler.none{
       width: 100%;
-      padding: none;
+      padding: 0;
 
       background-color: transparent;
     } 
