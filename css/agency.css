@@ -95,7 +95,7 @@ body {
       background-color: transparent;
     } 
   #mainNav .navbar-brand {
-    color:transparent;
+    color: #fed136;
     width: 100%;
     margin-right: 0px;
     text-align: center;
@@ -113,7 +113,7 @@ body {
     text-transform: uppercase;
     width: 100%; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136;
+      color: transparent;
       width: 100%; }
 
 @media (min-width: 992px) {
