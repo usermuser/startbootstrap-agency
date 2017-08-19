@@ -50,7 +50,7 @@ section {
 @media (min-width: 768px) {
   section {
     padding: 50px 0;} 
-    div.hide{
+    div.navbar-collapse.hide{
       display: none;
     } } 
 
