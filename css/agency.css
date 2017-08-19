@@ -88,6 +88,8 @@ body {
      }
     #mainNav .navbar-toggler.none{
       width: 100%;
+      padding: none;
+
       background-color: transparent;
     } 
   #mainNav .navbar-brand {
