@@ -34,7 +34,7 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
-  $(window).onload(function() {
+  $(window).reload(function() {
     if($("#mainNav").offset().top==0) {
     $("#mainNav").removeClass("navbar-shrink");
     }
