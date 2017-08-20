@@ -35,9 +35,7 @@
     }
   });
   $(window).on(Event.LOAD,function() {
-    if($("#mainNav").offset().top<100) {
 
-    $("#mainNav").removeClass("navbar-shrink");
-    }
+    $("#mainNav").addClass("navbar-shrink");
   });
 })(jQuery); // End of use strict
