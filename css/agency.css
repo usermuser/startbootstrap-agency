@@ -69,9 +69,6 @@ img::selection {
 
 img::-moz-selection {
   background: transparent; }
-
-
-
 #mainNav {
   background-color: #222222; }
   #mainNav .navbar-toggler {
