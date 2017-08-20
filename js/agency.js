@@ -38,4 +38,8 @@
 
     $("#mainNav").addClass("navbar-shrink");
   });
+  $(window).onload(function() {
+    
+        $("#mainNav").addClass("navbar-shrink");
+      });
 })(jQuery); // End of use strict
