@@ -35,7 +35,7 @@
     }
   });
   $(window).onload(function() {
-    if ($("#mainNav").offset().top<200) {
+    if($("#mainNav").offset().top==0) {
     $("#mainNav").removeClass("navbar-shrink");
     }
   });
