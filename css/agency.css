@@ -110,7 +110,7 @@ img::-moz-selection {
     text-transform: uppercase;
     width: 100%; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: transparent;
+      color: #fed136;
       width: 100%; }
 
 @media (min-width: 992px) {
