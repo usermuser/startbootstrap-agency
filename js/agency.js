@@ -34,8 +34,7 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
-  $(window).onload(function(){
-    $("#mainNav").addClass("navbar-shrink");
-    
+  $(window).onload(function() {
+    $("#mainNav").removeClass("navbar-shrink");
   });
 })(jQuery); // End of use strict
