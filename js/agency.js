@@ -18,7 +18,7 @@
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 54
+    offset: 0
   });
 
   // Closes responsive menu when a link is clicked
@@ -34,5 +34,12 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
+  $(window).on(Event.LOAD,function() {
 
+    $("#mainNav").addClass("navbar-shrink");
+  });
+  $(window).onload(function() {
+    
+        $("#mainNav").addClass("navbar-shrink");
+      });
 })(jQuery); // End of use strict
