@@ -1,85 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg6840"
-   sodipodi:docname="wheel.svg"
-   viewBox="0 0 144 144"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   inkscape:export-filename="D:\shina\startbootstrap-agency\favicon.png"
-   inkscape:export-xdpi="79.999222"
-   inkscape:export-ydpi="79.999222">
+   viewBox="0 0 144 144"
+   id="svg6840">
+  <title
+     id="title4139">Car wheel</title>
   <defs
      id="defs6842" />
-  <sodipodi:namedview
-     id="base"
-     bordercolor="#666666"
-     inkscape:pageshadow="2"
-     inkscape:window-y="-8"
-     fit-margin-left="0"
-     pagecolor="#ffffff"
-     fit-margin-top="0"
-     inkscape:window-maximized="1"
-     inkscape:zoom="5.6568542"
-     inkscape:window-x="-8"
-     inkscape:window-height="1057"
-     showgrid="false"
-     borderopacity="1.0"
-     inkscape:current-layer="layer1"
-     inkscape:cx="56.690684"
-     inkscape:cy="93.835399"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:pageopacity="0.0"
-     inkscape:document-units="px" />
   <g
-     id="layer1"
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     transform="translate(-50.857 -577.5)">
+     transform="translate(-50.857 -577.5)"
+     id="layer1">
     <path
-       style="fill:#1a1a1a"
-       d="M 71.958984 0.013671875 A 71.995773 72.000702 0 0 0 -0.037109375 72.013672 A 71.995773 72.000702 0 0 0 71.958984 144.01367 A 71.995773 72.000702 0 0 0 143.95312 72.013672 A 71.995773 72.000702 0 0 0 71.958984 0.013671875 z M 71.96875 17.044922 A 56.599678 54.914829 0 0 1 128.56836 71.958984 A 56.599678 54.914829 0 0 1 71.96875 126.875 A 56.599678 54.914829 0 0 1 15.369141 71.958984 A 56.599678 54.914829 0 0 1 71.96875 17.044922 z "
-       id="path3100"
-       transform="translate(50.857,577.5)" />
-    <path
-       style="fill:#ffd405;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       d="M 71.96875 14.935547 C 39.60426 14.935547 13.259766 40.456144 13.259766 71.958984 C 13.259766 103.46183 39.60426 128.98242 71.96875 128.98242 C 104.33324 128.98242 130.67578 103.46183 130.67578 71.958984 C 130.67578 40.456144 104.33324 14.935547 71.96875 14.935547 z M 63.820312 19.742188 C 64.151631 25.935953 64.533011 45.24193 56.695312 50.935547 C 48.828947 56.650156 29.489864 50.143453 23.457031 47.902344 C 31.296393 33.071537 46.149187 22.303395 63.820312 19.742188 z M 80.132812 19.744141 C 97.79927 22.309704 112.64664 33.078724 120.48242 47.908203 C 114.43537 50.153544 95.118747 56.645852 87.257812 50.935547 C 79.420874 45.242315 79.801517 25.939843 80.132812 19.744141 z M 18.316406 62.763672 C 24.530126 64.481648 44.203641 70.587487 47.259766 79.996094 C 50.306433 89.376775 38.316705 105.23902 34.341797 110.15234 C 23.950723 100.53455 17.476562 86.982435 17.476562 71.958984 C 17.476562 68.820529 17.775427 65.751962 18.316406 62.763672 z M 125.62109 62.767578 C 126.16156 65.75462 126.45898 68.821921 126.45898 71.958984 C 126.45898 86.977555 119.99011 100.52535 109.60547 110.14258 C 105.62352 105.21921 93.650138 89.370587 96.695312 79.996094 C 99.748695 70.594743 119.39018 64.491299 125.62109 62.767578 z M 71.976562 97.964844 C 81.560828 97.964844 92.843409 113.96833 96.294922 119.2207 C 88.975949 122.76186 80.720616 124.76562 71.96875 124.76562 C 63.221593 124.76562 54.970579 122.76415 47.654297 119.22656 C 51.101002 113.98059 62.388592 97.964844 71.976562 97.964844 z "
        transform="translate(50.857,577.5)"
-       id="path6689" />
+       id="path3100"
+       d="M 71.958984 0.013671875 A 71.995773 72.000702 0 0 0 -0.037109375 72.013672 A 71.995773 72.000702 0 0 0 71.958984 144.01367 A 71.995773 72.000702 0 0 0 143.95312 72.013672 A 71.995773 72.000702 0 0 0 71.958984 0.013671875 z M 71.96875 17.044922 A 56.599678 54.914829 0 0 1 128.56836 71.958984 A 56.599678 54.914829 0 0 1 71.96875 126.875 A 56.599678 54.914829 0 0 1 15.369141 71.958984 A 56.599678 54.914829 0 0 1 71.96875 17.044922 z "
+       style="fill:#1a1a1a" />
+    <path
+       id="path6689"
+       transform="translate(50.857,577.5)"
+       d="M 71.96875 14.935547 C 39.60426 14.935547 13.259766 40.456144 13.259766 71.958984 C 13.259766 103.46183 39.60426 128.98242 71.96875 128.98242 C 104.33324 128.98242 130.67578 103.46183 130.67578 71.958984 C 130.67578 40.456144 104.33324 14.935547 71.96875 14.935547 z M 63.820312 19.742188 C 64.151631 25.935953 64.533011 45.24193 56.695312 50.935547 C 48.828947 56.650156 29.489864 50.143453 23.457031 47.902344 C 31.296393 33.071537 46.149187 22.303395 63.820312 19.742188 z M 80.132812 19.744141 C 97.79927 22.309704 112.64664 33.078724 120.48242 47.908203 C 114.43537 50.153544 95.118747 56.645852 87.257812 50.935547 C 79.420874 45.242315 79.801517 25.939843 80.132812 19.744141 z M 18.316406 62.763672 C 24.530126 64.481648 44.203641 70.587487 47.259766 79.996094 C 50.306433 89.376775 38.316705 105.23902 34.341797 110.15234 C 23.950723 100.53455 17.476562 86.982435 17.476562 71.958984 C 17.476562 68.820529 17.775427 65.751962 18.316406 62.763672 z M 125.62109 62.767578 C 126.16156 65.75462 126.45898 68.821921 126.45898 71.958984 C 126.45898 86.977555 119.99011 100.52535 109.60547 110.14258 C 105.62352 105.21921 93.650138 89.370587 96.695312 79.996094 C 99.748695 70.594743 119.39018 64.491299 125.62109 62.767578 z M 71.976562 97.964844 C 81.560828 97.964844 92.843409 113.96833 96.294922 119.2207 C 88.975949 122.76186 80.720616 124.76562 71.96875 124.76562 C 63.221593 124.76562 54.970579 122.76415 47.654297 119.22656 C 51.101002 113.98059 62.388592 97.964844 71.976562 97.964844 z "
+       style="fill:#ffd405;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
     <circle
-       id="path6706"
-       style="fill:#1a1a1a;fill-opacity:1"
-       cx="133.83395"
+       r="3.9998636"
        cy="638.46313"
-       r="3.9998636" />
-    <circle
-       id="path6710"
-       style="fill:#1a1a1a;fill-opacity:1"
-       cx="110.83427"
-       cy="638.46313"
-       r="3.9998636" />
-    <circle
-       id="path6712"
-       style="fill:#1a1a1a;fill-opacity:1"
        cx="133.83395"
-       cy="660.45837"
-       r="3.9998636" />
-    <circle
-       id="path6714"
        style="fill:#1a1a1a;fill-opacity:1"
+       id="path6706" />
+    <circle
+       r="3.9998636"
+       cy="638.46313"
        cx="110.83427"
+       style="fill:#1a1a1a;fill-opacity:1"
+       id="path6710" />
+    <circle
+       r="3.9998636"
        cy="660.45837"
-       r="3.9998636" />
+       cx="133.83395"
+       style="fill:#1a1a1a;fill-opacity:1"
+       id="path6712" />
+    <circle
+       r="3.9998636"
+       cy="660.45837"
+       cx="110.83427"
+       style="fill:#1a1a1a;fill-opacity:1"
+       id="path6714" />
   </g>
   <metadata
      id="metadata28">
@@ -89,20 +58,20 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <cc:license
-           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+           rdf:resource="" />
         <dc:publisher>
           <cc:Agent
              rdf:about="http://openclipart.org/">
-            <dc:title>Openclipart</dc:title>
+            <dc:title>triton-web</dc:title>
           </cc:Agent>
         </dc:publisher>
-        <dc:title>Simple Car Wheel/Tire Side View</dc:title>
-        <dc:date>2012-07-15T22:39:38</dc:date>
-        <dc:description>Just a wheel side view made for Trigger Rally. I quite like it, hope you do too!</dc:description>
-        <dc:source>https://openclipart.org/detail/171197/cars-wheel-by-qubodup-171197</dc:source>
+        <dc:title>Car wheel</dc:title>
+        <dc:date></dc:date>
+        <dc:description></dc:description>
+        <dc:source>triton3d.ru</dc:source>
         <dc:creator>
           <cc:Agent>
-            <dc:title>qubodup</dc:title>
+            <dc:title>tum0xa</dc:title>
           </cc:Agent>
         </dc:creator>
         <dc:subject>
@@ -122,15 +91,6 @@
           </rdf:Bag>
         </dc:subject>
       </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/licenses/publicdomain/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      </cc:License>
     </rdf:RDF>
   </metadata>
 </svg>
