@@ -34,9 +34,24 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
+  $('a[href="#1"]').click(function(){
+	var closeButton=document.createElement("button");
+	var controlDiv=document.createElement("div");
+	controlDiv.className="leaflet-control";
+	closeButton.type="button";
+	closeButton.className="btn btn-primary";
+	closeButton.setAttribute("data-dismiss","modal");
+	controlDiv.appendChild(closeButton);
+	var placeDiv=document.getElementsByClassName("leaflet-bottom leaflet-left");
+	placeDiv[0].appendChild(controlDiv);
+	var fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
+	fullScreen[0].click();
+
+  });
   $(window).on(Event.LOAD,function() {
 
     $("#mainNav").addClass("navbar-shrink");
+
   });
   // $(window).onload(function() {
     
