@@ -41,6 +41,7 @@
 	closeButton.type="button";
 	closeButton.className="btn btn-primary";
 	closeButton.setAttribute("data-dismiss","modal");
+	closeButton.textContent="Закрыть карту";
 	controlDiv.appendChild(closeButton);
 	var placeDiv=document.getElementsByClassName("leaflet-bottom leaflet-left");
 	placeDiv[0].appendChild(controlDiv);
