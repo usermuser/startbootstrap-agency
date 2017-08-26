@@ -34,7 +34,7 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
-  $('a[href="#1"]').click(function(){
+  $('a[href="#dummy"]').click(function(){
 	var closeButton=document.createElement("button");
 	var controlDiv=document.createElement("div");
 	controlDiv.className="leaflet-control";
