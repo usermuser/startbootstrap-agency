@@ -328,8 +328,8 @@ header.masthead {
 .price-table .th-right {
 	text-align: right;
 }
-.price-section .bg-yellow{
-	background-color: #fed136;
+#price .bg-yellow{
+	background-color: #fed136 !important;
 }
 .timeline {
   position: relative;
