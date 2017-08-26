@@ -34,10 +34,10 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
-  //$(window).on(Event.LOAD,function() {
-  //
-  //  $("#mainNav").addClass("navbar-shrink");
-  //});
+  $(window).on(Event.LOAD,function() {
+
+    $("#mainNav").addClass("navbar-shrink");
+  });
   // $(window).onload(function() {
     
   //       $("#mainNav").addClass("navbar-shrink");
