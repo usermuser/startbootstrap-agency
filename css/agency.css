@@ -325,7 +325,9 @@ header.masthead {
 .portfolio-modal .modal-backdrop {
   display: none;
   opacity: 0; }
-
+.price-table .th-left {
+	text-align: left;
+}
 .timeline {
   position: relative;
   padding: 0;
