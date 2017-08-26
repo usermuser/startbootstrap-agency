@@ -326,7 +326,10 @@ header.masthead {
   display: none;
   opacity: 0; }
 .price-table .th-right {
-	text-align: left;
+	text-align: right;
+}
+.price-section .bg-yellow{
+	background-color: #fed136;
 }
 .timeline {
   position: relative;
