@@ -1,6 +1,6 @@
 (function($) {
   "use strict"; // Start of use strict
-
+x=0;
   // Smooth scrolling using jQuery easing
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -47,9 +47,10 @@
 	//placeDiv[0].appendChild(controlDiv);
 	var fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
 	fullScreen[0].click();
+	map.invalidateSize();
 	//tmp=document.getElementBy
-	//if(document.getElementById('mapclose'))
-	//{
+	if(x!=1)
+	{ 
 		var closeButton=document.createElement("button");
 		var controlDiv=document.createElement("div");
 		controlDiv.className="leaflet-control";
@@ -61,7 +62,8 @@
 		controlDiv.appendChild(closeButton);
 		var placeDiv=document.getElementsByClassName("leaflet-bottom leaflet-left");
 		placeDiv[0].appendChild(controlDiv);
-	//}
+		x=1;
+	}
   });
   $("button[id='mapclose']").click(function(){
 	  if(document.webkitiIsFullscreen)
@@ -70,7 +72,7 @@
 		}
   });
   $(window).on(Event.LOAD,function() {
-
+	
     $("#mainNav").addClass("navbar-shrink");
   });
   // $(window).onload(function() {
