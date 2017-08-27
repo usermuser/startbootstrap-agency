@@ -72,7 +72,17 @@
   $(window).on(Event.LOAD,function() {
 
     $("#mainNav").addClass("navbar-shrink");
-
+	var closeButton=document.createElement("button");
+		var controlDiv=document.createElement("div");
+		controlDiv.className="leaflet-control";
+		closeButton.type="button";
+		closeButton.id="mapclose";
+		closeButton.className="btn btn-primary";
+		closeButton.setAttribute("data-dismiss","modal");
+		closeButton.textContent="Закрыть карту";
+		controlDiv.appendChild(closeButton);
+		var placeDiv=document.getElementsByClassName("leaflet-bottom leaflet-left");
+		placeDiv[0].appendChild(controlDiv);
   });
   // $(window).onload(function() {
     
