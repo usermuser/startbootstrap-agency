@@ -36,7 +36,7 @@ var x=0;
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
-  $('div[id="map"]').onresize(function(){
+  $('div[id="map"]').on(Event.RESIZE,function(){
 	map.panTo([55.208516, 61.306399]);
 	map.invalidateSize();
   });
