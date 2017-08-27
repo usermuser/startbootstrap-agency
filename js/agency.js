@@ -36,12 +36,12 @@ var x=0;
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
-  //$('div[id="map"]').on(Event.RESIZE,function(){
-  //  map.panTo([55.208516, 61.306399]);
-  //  map.invalidateSize();
+  $('div[id="map"]').on(Event.LOAD,function(){
+    map.panTo([55.208516, 61.306399]);
+    map.invalidateSize();
   //});
   $('a[href="#dummy"]').click(function(){
-	  map.invalidateSize(true);
+	  ;
 	//var closeButton=document.createElement("button");
 	//var controlDiv=document.createElement("div");
 	//controlDiv.className="leaflet-control";
@@ -62,8 +62,8 @@ var x=0;
 	
 	window.fullScreen[0].click();
 	window.fSBut[0].setAttribute("style","display:none");
-	map.panTo([55.208516, 61.306399]);
-	map.invalidateSize(true);
+	//map.panTo([55.208516, 61.306399]);
+	//map.invalidateSize(true);
 	//tmp=document.getElementBy
 	if(x!=1)
 	{ 
@@ -88,7 +88,7 @@ var x=0;
 	  //  }
 		window.fullScreen[0].click();
 	});
-  
+  map.invalidateSize(center: [55.208516, 61.306399],zoom: 17});
   });
   
   $(window).on(Event.LOAD,function() {
