@@ -80,7 +80,7 @@ var x=0;
 	setTimeout(function(){
 	
 	map.panTo([55.208471,61.307096]);
-	map.setZoom(13);
+	map.setZoom(14);
 	map.invalidateSize();
 	
 	},500);	
