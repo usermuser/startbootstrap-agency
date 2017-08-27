@@ -48,18 +48,26 @@
 	var fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
 	fullScreen[0].click();
 	//tmp=document.getElementBy
-	//if(
-var closeButton=document.createElement("button");
-	var controlDiv=document.createElement("div");
-	controlDiv.className="leaflet-control";
-	closeButton.type="button";
-	closeButton.className="btn btn-primary";
-	closeButton.setAttribute("data-dismiss","modal");
-	closeButton.textContent="Закрыть карту";
-	controlDiv.appendChild(closeButton);
-	var placeDiv=document.getElementsByClassName("leaflet-bottom leaflet-left");
-	placeDiv[0].appendChild(controlDiv);
-	
+	if(document.getElementById('mapclose'))
+	{
+		var closeButton=document.createElement("button");
+		var controlDiv=document.createElement("div");
+		controlDiv.className="leaflet-control";
+		closeButton.type="button";
+		closeButton.id="mapclose";
+		closeButton.className="btn btn-primary";
+		closeButton.setAttribute("data-dismiss","modal");
+		closeButton.textContent="Закрыть карту";
+		controlDiv.appendChild(closeButton);
+		var placeDiv=document.getElementsByClassName("leaflet-bottom leaflet-left");
+		placeDiv[0].appendChild(controlDiv);
+	}
+  });
+  $("button[id='mapclose']").click(function(){
+	  if(document.webkitiIsFullscreen)
+		{
+			document.webkitCancelFullscreen();
+		}
   });
   $(window).on(Event.LOAD,function() {
 
