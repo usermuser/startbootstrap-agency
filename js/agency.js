@@ -94,4 +94,7 @@ var x=0;
     
   //       $("#mainNav").addClass("navbar-shrink");
   //     });
+  $('tr[id="tireservice"]').click(function(){
+	  alert("тут будет меняться ценник в зависимости от выбранного диаметра колеса");
+  });
 })(jQuery); // End of use strict
