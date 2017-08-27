@@ -78,7 +78,8 @@ var x=0;
 		fullScreen[0].click();
 	});	
 	setTimeout(function(){
-	map.setZoom(17);	
+	map.setZoom(17);
+	map.panTo([55.208516, 61.306399]);
 	map.invalidateSize();
 	
 	},500);	
