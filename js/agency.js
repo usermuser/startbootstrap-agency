@@ -47,7 +47,7 @@ var x=0;
 	//var placeDiv=document.getElementsByClassName("leaflet-bottom leaflet-left");
 	//placeDiv[0].appendChild(controlDiv);
 	var fSBut=document.getElementsByClassName("dg-control-round leaflet-control");
-	fsBut.setAttribute("style","display:none");
+	fsBut[0].setAttribute("style","display:none");
 	var fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
 	fullScreen[0].click();
 	
