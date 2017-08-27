@@ -74,14 +74,7 @@ var x=0;
 		x=1;
 		
 	}
-	$("button[id='mapclose']").click(function(){
-	  //if(document.webkitiIsFullscreen)
-	  //  {
-	  //      document.webkitCancelFullscreen();
-	  //  }
-		window.fullScreen[0].click();
-	});
-  
+	setTimeout(function(){map.invalidateSize();},1000);	
   });
   
   $(window).on(Event.LOAD,function() {
