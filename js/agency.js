@@ -41,6 +41,7 @@ var x=0;
   //  map.invalidateSize();
   //});
   $('a[href="#dummy"]').click(function(){
+	  map.invalidateSize(true);
 	//var closeButton=document.createElement("button");
 	//var controlDiv=document.createElement("div");
 	//controlDiv.className="leaflet-control";
@@ -62,7 +63,7 @@ var x=0;
 	window.fullScreen[0].click();
 	window.fSBut[0].setAttribute("style","display:none");
 	map.panTo([55.208516, 61.306399]);
-	map.invalidateSize();
+	map.invalidateSize(true);
 	//tmp=document.getElementBy
 	if(x!=1)
 	{ 
