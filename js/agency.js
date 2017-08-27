@@ -49,10 +49,12 @@ var x=0;
 	//placeDiv[0].appendChild(controlDiv);
 	
 	
-	var fSBut=document.getElementsByClassName("dg-control-round leaflet-control");
-	var fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
-	fSBut[0].setAttribute("style","display:none");
-	fullScreen[0].click();
+	
+	var window.fSBut=document.getElementsByClassName("dg-control-round leaflet-control");
+	var window.fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
+	window.fSBut[0].setAttribute("style","display:none");
+	
+	window.fullScreen[0].click();
 	
 	//tmp=document.getElementBy
 	if(x!=1)
@@ -78,7 +80,7 @@ var x=0;
 	  //  {
 	  //      document.webkitCancelFullscreen();
 	  //  }
-		fullScreen[0].click();
+		window.fullScreen[0].click();
   });
   $(window).on(Event.LOAD,function() {
 	
