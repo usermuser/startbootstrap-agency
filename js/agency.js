@@ -52,10 +52,12 @@ var x=0;
 	
 	window.fSBut=document.getElementsByClassName("dg-control-round leaflet-control");
 	window.fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
-	window.fSBut[0].setAttribute("style","display:none");
+	
 	
 	window.fullScreen[0].click();
-	
+	DG.map('map',{	center: [55.208516, 61.306399],
+						zoom: 17});
+	window.fSBut[0].setAttribute("style","display:none");
 	//tmp=document.getElementBy
 	if(x!=1)
 	{ 
