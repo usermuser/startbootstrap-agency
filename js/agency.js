@@ -72,16 +72,18 @@ var x=0;
 		placeDiv[0].appendChild(controlDiv);
 		x=1;
 		map.invalidateSize();
+
 	}
-  map.invalidateSize();
-  });
-  $("button[id='mapclose']").click(function(){
+	$("button[id='mapclose']").click(function(){
 	  //if(document.webkitiIsFullscreen)
 	  //  {
 	  //      document.webkitCancelFullscreen();
 	  //  }
 		window.fullScreen[0].click();
+	});
+  map.invalidateSize();
   });
+  
   $(window).on(Event.LOAD,function() {
 	
     $("#mainNav").addClass("navbar-shrink");
