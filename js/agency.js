@@ -39,7 +39,7 @@ var x=0;
   $('div[id="map"]').on(Event.LOAD,function(){
     map.panTo([55.208516, 61.306399]);
     map.invalidateSize();
-  //});
+  });
   $('a[href="#dummy"]').click(function(){
 	//var closeButton=document.createElement("button");
 	//var controlDiv=document.createElement("div");
