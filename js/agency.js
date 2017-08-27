@@ -74,7 +74,7 @@ var x=0;
 		x=1;
 	
 	}
-	$('button[id="mapclose"]').onclick(function(){
+	$('button[id="mapclose"]').click(function(){
 		fullScreen[0].click();
 	});	
 	setTimeout(function(){map.invalidateSize();},1000);	
