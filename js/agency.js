@@ -72,7 +72,9 @@ var x=0;
 		var placeDiv=document.getElementsByClassName("leaflet-bottom leaflet-left");
 		placeDiv[0].appendChild(controlDiv);
 		x=1;
-		
+	$('button[id="mapclose"]').onclick(function{
+		fullScreen[0].click();
+	});		
 	}
 	setTimeout(function(){map.invalidateSize();},1000);	
   });
