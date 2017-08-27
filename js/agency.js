@@ -50,8 +50,8 @@ var x=0;
 	
 	
 	
-	var window.fSBut=document.getElementsByClassName("dg-control-round leaflet-control");
-	var window.fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
+	window.fSBut=document.getElementsByClassName("dg-control-round leaflet-control");
+	window.fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
 	window.fSBut[0].setAttribute("style","display:none");
 	
 	window.fullScreen[0].click();
