@@ -41,7 +41,6 @@ var x=0;
     map.invalidateSize();
   //});
   $('a[href="#dummy"]').click(function(){
-	  ;
 	//var closeButton=document.createElement("button");
 	//var controlDiv=document.createElement("div");
 	//controlDiv.className="leaflet-control";
@@ -88,7 +87,7 @@ var x=0;
 	  //  }
 		window.fullScreen[0].click();
 	});
-  map.invalidateSize(center: [55.208516, 61.306399],zoom: 17);
+  map.invalidateSize("center: [55.208516, 61.306399],zoom: 17");
   });
   
   $(window).on(Event.LOAD,function() {
