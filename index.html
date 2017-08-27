@@ -532,9 +532,10 @@
 						DG.then(function() {
                         map=DG.map('map', {
 						center: [55.208516, 61.306399],
-						zoom: 17}); 
+						zoom: 17,
+						}); 
 						});
-
+					DG.marker(55.208516, 61.306399]).addTo(map).bindPopup('Качественный шиномонтаж здесь!')
 					</script>
 				<!--    <button class="btn btn-primary" data-dismiss="modal" type="button">-->
 				<!--     Закрыть карту</button>                                -->

@@ -77,7 +77,11 @@ var x=0;
 	$('button[id="mapclose"]').click(function(){
 		fullScreen[0].click();
 	});	
-	setTimeout(function(){map.invalidateSize();},1000);	
+	setTimeout(function(){
+	map.setZoom(17);	
+	map.invalidateSize();
+	
+	},500);	
   });
   
   $(window).on(Event.LOAD,function() {
