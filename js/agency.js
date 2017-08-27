@@ -88,7 +88,7 @@ var x=0;
 	  //  }
 		window.fullScreen[0].click();
 	});
-  map.invalidateSize(center: [55.208516, 61.306399],zoom: 17});
+  map.invalidateSize(center: [55.208516, 61.306399],zoom: 17);
   });
   
   $(window).on(Event.LOAD,function() {
