@@ -36,6 +36,10 @@ var x=0;
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
+  $('div[id='map']').onresize(function(){
+	map.panTo([55.208516, 61.306399]);
+	map.invalidateSize();
+  });
   $('a[href="#dummy"]').click(function(){
 	//var closeButton=document.createElement("button");
 	//var controlDiv=document.createElement("div");
@@ -49,7 +53,7 @@ var x=0;
 	//placeDiv[0].appendChild(controlDiv);
 	
 	
-	map.panTo([55.208516, 61.306399])
+	map.panTo([55.208516, 61.306399]);
 	map.invalidateSize();
 
 	window.fSBut=document.getElementsByClassName("dg-control-round leaflet-control");
