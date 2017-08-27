@@ -36,10 +36,10 @@ var x=0;
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
-  $('div[id="map"]').on(Event.RESIZE,function(){
-	map.panTo([55.208516, 61.306399]);
-	map.invalidateSize();
-  });
+  //$('div[id="map"]').on(Event.RESIZE,function(){
+  //  map.panTo([55.208516, 61.306399]);
+  //  map.invalidateSize();
+  //});
   $('a[href="#dummy"]').click(function(){
 	//var closeButton=document.createElement("button");
 	//var controlDiv=document.createElement("div");
@@ -53,8 +53,7 @@ var x=0;
 	//placeDiv[0].appendChild(controlDiv);
 	
 	
-	map.panTo([55.208516, 61.306399]);
-	map.invalidateSize();
+	
 
 	window.fSBut=document.getElementsByClassName("dg-control-round leaflet-control");
 	window.fullScreen=document.getElementsByClassName("dg-control-round__icon dg-control-round__icon_name_fullscreen");
@@ -62,7 +61,8 @@ var x=0;
 	
 	window.fullScreen[0].click();
 	window.fSBut[0].setAttribute("style","display:none");
-	
+	map.panTo([55.208516, 61.306399]);
+	map.invalidateSize();
 	//tmp=document.getElementBy
 	if(x!=1)
 	{ 
