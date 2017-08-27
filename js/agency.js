@@ -55,9 +55,8 @@ var x=0;
 	
 	
 	window.fullScreen[0].click();
-	DG.map('map',{	center: [55.208516, 61.306399],
-						zoom: 17});
 	window.fSBut[0].setAttribute("style","display:none");
+	map.panTo([55.208516, 61.306399])
 	//tmp=document.getElementBy
 	if(x!=1)
 	{ 
