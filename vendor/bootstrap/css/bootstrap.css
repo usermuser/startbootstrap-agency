@@ -3,6 +3,7 @@
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ changed string 608
  */
 @media print {
   *,
@@ -602,6 +603,18 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   width: 100%;
+}
+
+.container-footer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+
 }
 
 @media (min-width: 576px) {
